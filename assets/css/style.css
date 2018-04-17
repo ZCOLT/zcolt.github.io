@@ -1,14 +1,22 @@
+body {
+    margin: 0;
+    background-image: url("../images/concrete-texture.png");
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
 header {
     position: relative;
     height: 84px;
     margin: 0;
-    border: #cccccc
+    border: solid #cccccc;
+    background-color: #ffffff;
 }
 
 h1 {
     position: relative;
     top: 0px;
-    left: 427px;
+    left: 431px;
     margin: 0;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -22,46 +30,79 @@ h1 {
 
 .about {
     float: right;
+    position: relative;
+    top: 30px;
     width: 5%;
-    height: 84px;
-    line-height: 77px;
-    text-align: center;
-    color: #4aaaa5;
-    
+    height: 18px;
+    line-height: 18px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
+.about0 {
+    color: #4aaaa5;
+}
+#about-link {
+    text-decoration: none;
+    color: #777777;
+}
+#about-link:hover {
+    color: #4AA7C1;
+    text-decoration: underline;
+}
+
 
 
 .portfolio {
     float: right;
+    position: relative;
+    top: 30px;
     width: 5%;
-    height: 84px;
-    line-height: 77px;
+    height: 18px;
+    line-height: 18px;
     text-align: center;
+    border-left: solid 2px;
+    border-left-style: inset;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.portfolio0 {
+    color: #4aaaa5;
 }
 #portfolio-link {
     text-decoration: none;
     color: #777777;
 }
 #portfolio-link:hover {
-    color: #4aaaa5;
+    color: #4AA7C1;
     text-decoration: underline;
 }
 
 
+
 .contact {
     float: right;
+    position: relative;
+    top: 30px;
     width: 5%;
-    height: 84px;
-    line-height: 77px;
+    height: 18px;
+    line-height: 18px;
     text-align: center;
     margin-right: 410px;
+    border-left: solid 2px;
+    border-left-style: inset;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact0 {
+    color: #4aaaa5;
 }
 #contact-link {
     text-decoration: none;
     color: #777777;
 }
 #contact-link:hover {
-    color: #4aaaa5;
+    color: #4AA7C1;
     text-decoration: underline;
 }
 
@@ -69,8 +110,9 @@ h1 {
 
 .content {
     height: 960px;
-    background-color: rgb(229, 229, 229);
     margin: 0;
+    /* flex: 1 0 auto; */
+    /* padding-bottom: 66px; */
 }
 
 .content-box {
@@ -80,8 +122,7 @@ h1 {
     margin: auto;
     top: 35px;
     position: relative;
-    border: solid; 
-    border-color: #dddddd
+    border: solid #dddddd;
 }
 
 h2 {
@@ -117,10 +158,15 @@ img {
     margin: 0%;
     background-color: #4aaaa5;
     height: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 83px;
 }
 
 footer {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     height: 84px;
     margin: 0;
     background-color: #666666;
@@ -128,6 +174,7 @@ footer {
     color: white;
     text-align: center;
     font-size: smaller;
+    /* flex-shrink: 0; */
 }
 
 #pfooter {
