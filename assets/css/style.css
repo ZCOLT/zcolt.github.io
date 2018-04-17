@@ -1,0 +1,136 @@
+header {
+    position: relative;
+    height: 84px;
+    margin: 0;
+    border: #cccccc
+}
+
+h1 {
+    position: relative;
+    top: 0px;
+    left: 427px;
+    margin: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 84px;
+    width: 236px;
+    text-align: center;
+    line-height: 86px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.about {
+    float: right;
+    width: 5%;
+    height: 84px;
+    line-height: 77px;
+    text-align: center;
+    color: #4aaaa5;
+    
+}
+
+
+.portfolio {
+    float: right;
+    width: 5%;
+    height: 84px;
+    line-height: 77px;
+    text-align: center;
+}
+#portfolio-link {
+    text-decoration: none;
+    color: #777777;
+}
+#portfolio-link:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+
+.contact {
+    float: right;
+    width: 5%;
+    height: 84px;
+    line-height: 77px;
+    text-align: center;
+    margin-right: 410px;
+}
+#contact-link {
+    text-decoration: none;
+    color: #777777;
+}
+#contact-link:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+
+
+.content {
+    height: 960px;
+    background-color: rgb(229, 229, 229);
+    margin: 0;
+}
+
+.content-box {
+    height: 598px;
+    width: 809px;
+    background-color: #ffffff;
+    margin: auto;
+    top: 35px;
+    position: relative;
+    border: solid; 
+    border-color: #dddddd
+}
+
+h2 {
+    position: relative;
+    margin: 0;
+    line-height: 70px;
+    color: #4aaaa5;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+   }
+
+#hr1 {
+    width: 93%;
+    background-color: #777777;
+}   
+
+.image-details {
+    position: absolute;
+}
+
+img {
+    float: left;
+    padding: 30px;
+}
+
+.p {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#hr2 {
+    margin: 0%;
+    background-color: #4aaaa5;
+    height: 10px;
+}
+
+footer {
+    position: relative;
+    height: 84px;
+    margin: 0;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+
+#pfooter {
+    margin: 0%;
+    line-height: 145px;
+}
