@@ -152,6 +152,7 @@ img {
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    font-size: 16px;
 }
 
 #hr2 {
@@ -180,4 +181,14 @@ footer {
 #pfooter {
     margin: 0%;
     line-height: 145px;
+}
+
+
+/* Portfolio Speciic */
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 30px;
+    font-size: 16px;
 }
