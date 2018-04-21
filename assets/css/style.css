@@ -28,7 +28,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.about {
+.about, .portfolio, .contact {
     float: right;
     position: relative;
     top: 30px;
@@ -37,82 +37,42 @@ h1 {
     line-height: 18px;
     text-align: center; 
     font-family: Arial, Helvetica, sans-serif;
-   
 }
+
+.contact, .portfolio {
+    border-left: solid 2px;
+    border-left-style: inset;
+}
+
+.contact {
+    margin-right: 410px;
+}
+
+#about-link, #portfolio-link, #contact-link {
+    text-decoration: none;
+    color: #777777;
+}
+#about-link:hover, #portfolio-link:hover, #contact-link:hover {
+    color: #4AA7C1;
+    text-decoration: underline;
+}
+
+
 .about0 {
     color: #4aaaa5;
 }
-#about-link {
-    text-decoration: none;
-    color: #777777;
-}
-#about-link:hover {
-    color: #4AA7C1;
-    text-decoration: underline;
-}
 
-
-
-.portfolio {
-    float: right;
-    position: relative;
-    top: 30px;
-    width: 5%;
-    height: 18px;
-    line-height: 18px;
-    text-align: center;
-    border-left: solid 2px;
-    border-left-style: inset;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
 .portfolio0 {
     color: #4aaaa5;
 }
-#portfolio-link {
-    text-decoration: none;
-    color: #777777;
-}
-#portfolio-link:hover {
-    color: #4AA7C1;
-    text-decoration: underline;
-}
 
-
-
-.contact {
-    float: right;
-    position: relative;
-    top: 30px;
-    width: 5%;
-    height: 18px;
-    line-height: 18px;
-    text-align: center;
-    margin-right: 410px;
-    border-left: solid 2px;
-    border-left-style: inset;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
 .contact0 {
     color: #4aaaa5;
 }
-#contact-link {
-    text-decoration: none;
-    color: #777777;
-}
-#contact-link:hover {
-    color: #4AA7C1;
-    text-decoration: underline;
-}
-
-
 
 .content {
     height: 960px;
     margin: 0;
-    /* flex: 1 0 auto; */
-    /* padding-bottom: 66px; */
 }
 
 .content-box {
@@ -161,14 +121,14 @@ img {
     height: 10px;
     width: 100%;
     position: fixed;
-    bottom: 83px;
+    bottom: 56px;
 }
 
 footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 84px;
+    height: 58px;
     margin: 0;
     background-color: #666666;
     font-family: Arial, Helvetica, sans-serif;
@@ -180,15 +140,28 @@ footer {
 
 #pfooter {
     margin: 0%;
-    line-height: 145px;
+    line-height: 100px;
 }
 
 
-/* Portfolio Speciic */
+/* Portfolio Page Speciic */
 
 form {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin: 30px;
+    font-size: 16px;
+}
+
+/* Contact Page Specific */
+
+.submit-button {
+    background-color: rgb(30, 60, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
 }
